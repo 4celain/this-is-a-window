@@ -141,8 +141,6 @@ Developer ID로 서명하고 Apple 공증을 완료한 배포본입니다.
 
 [버그 제보](https://github.com/4celain/this-is-a-window/issues/new?template=bug_report.yml) · [개인정보 안내](PRIVACY.md) · [보안 안내](SECURITY.md)
 
-모든 기능은 무료입니다. 앱이 마음에 들었다면 [GitHub Star](https://github.com/4celain/this-is-a-window), [Ko-fi](https://ko-fi.com/4celain) 또는 [CTEE](https://ctee.kr/place/4celain)로 개발을 응원할 수 있습니다.
-
 </details>
 
 © 2026 4celain
