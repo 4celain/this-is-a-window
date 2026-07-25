@@ -1,53 +1,57 @@
 <?xml version="1.0" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>TWMA</title>
+        <title>This is a Window</title>
         <item>
-            <title>0.3.0</title>
-            <pubDate>Wed, 22 Jul 2026 01:49:21 +0900</pubDate>
-            <link>https://github.com/4celain/twma-releases/releases/tag/v0.3.0-beta.8</link>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <title>1.0.0</title>
+            <pubDate>Sat, 25 Jul 2026 09:58:36 +0900</pubDate>
+            <link>https://github.com/4celain/this-is-a-window/releases/tag/v1.0.0</link>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# TWMA 0.3.0 Beta 8 (Build 10)
+            <description sparkle:format="markdown"><![CDATA[# This is a Window 1.0.0 (Build 17)
 
 - 지원 환경: macOS 14 이상, Apple Silicon
-- 다운로드 파일: `TWMA-0.3.0-beta.8-build.10-arm64.dmg`
-- 이전 버전: Beta 7 Build 9
+- 설치 파일: `this-is-a-window-1.0.0-build.17-arm64.dmg`
 
-이번 후보는 작업공간 편집과 창 복원, 다음 버전 연결을 마무리한 TWMA의 마지막 공개 베타입니다.
+창 배치부터 작업공간 전체 복원까지 한 번에 관리하는 첫 정식 버전입니다.
 
 ## 이번 변경사항
 
-- 작업공간 화면을 탭과 선택 카드 한 장으로 정리하고, 단축키·복원 시 적용할 레이아웃·주요 동작을 카드 상단에서 바로 사용할 수 있게 했습니다. 레이아웃 화면은 선택한 모니터의 해상도·화면비에 맞는 항목과 개수만 보여줍니다.
-- 앱 아이콘을 드래그해 영역과 앞뒤 순서를 정하거나 복원 대상에서 제외할 수 있습니다. `업데이트`는 현재 화면의 앱당 대표 창 한 개로 다시 저장하며, 열려 있지 않은 앱은 작업공간에서 빠집니다.
-- 선택한 보조키와 방향키로 현재 창을 인접 영역으로 옮길 수 있으며, 최소화되었거나 마지막 창이 닫힌 앱의 복원 안정성을 높였습니다. 자동 숨김 Dock은 별도 빈 공간을 남기지 않고 화면 전체를 사용합니다.
-- 새 버전을 자동 또는 수동으로 확인하고 사용자 승인 후 설치할 수 있습니다. Beta 7에서 Beta 8은 한 번 수동 설치해야 하며, 앱 안 업데이트는 Beta 8 이후 버전부터 연결됩니다.
+- 창을 끌어 프리셋 영역에 놓거나 키보드로 이동할 수 있습니다. 창 간격과 Dock 여백을 선택하고, 모니터별로 자주 쓰는 배치를 네 개까지 지정할 수 있습니다.
+- 실행 중인 앱과 창 위치를 작업공간에 저장하고 한 번에 복원합니다. 작업공간 하나에 여러 모니터 환경의 배치를 연결해 현재 환경에 맞는 배치를 자동으로 선택합니다.
+- 앱을 복원 대상에서 제외하거나 다시 포함할 수 있습니다. 제외 상태는 작업공간을 업데이트해도 유지되며, 창별 복원 결과와 실패 항목 재시도를 제공합니다.
+- 디스플레이 연결·회전·해상도 변경과 로그인 뒤 자동 복원을 지원합니다. Safari 마지막 창과 Finder 위치 복원을 보완하고, 최근 복원 결과가 길어도 설정창 높이가 흔들리지 않도록 안정화했습니다.
 
 ## 검증
 
-27개 테스트 묶음의 255개 테스트, Thread Sanitizer와 Address Sanitizer, Debug·Release warnings-as-errors 빌드를 통과했습니다.
+29개 묶음의 278개 테스트, Thread Sanitizer와 Address Sanitizer, Debug·Release warnings-as-errors 빌드를 통과했습니다. 서명·공증·staple·Gatekeeper 검증과 앱 안 업데이트, 절전·로그인 복원, 다른 Space의 기존 창 보호를 실기에서 확인했습니다.
 
 <details>
 <summary>English</summary>
 
-This is TWMA's final public beta candidate, completing workspace editing, window restoration, and the update path for later releases.
+# This is a Window 1.0.0 (Build 17)
+
+- Requires macOS 14 or later on Apple Silicon
+- Installer: `this-is-a-window-1.0.0-build.17-arm64.dmg`
+
+The first stable release brings window layouts and one-action workspace restoration together.
 
 ## Changes
 
-- Workspaces now use tabs and one selected card, with the shortcut, restore layout, and primary actions available from the card header. The layout screen shows only the choices and count suited to the selected display's resolution and aspect ratio.
-- Drag app icons between areas, reorder foreground priority, or exclude apps from restoration. Update keeps one representative window per currently visible app and removes apps that are no longer open.
-- Move the focused window between adjacent preset areas with a chosen modifier and arrow keys, with more reliable restoration of minimized apps and apps whose last window was closed. An auto-hidden Dock no longer leaves a reserved strip.
-- Check for updates automatically or manually and install only after approval. Beta 7 must be upgraded to Beta 8 manually once; in-app updates begin with versions released after Beta 8.
+- Drag a window into a preset area or move it with the keyboard. Configure window gaps and Dock clearance, and keep up to four favorite layouts per display.
+- Save running apps and window positions as a workspace, then restore them together. A workspace can hold variants for different display setups and select the best match automatically.
+- Include or exclude apps from restoration. Exclusions remain in place after a workspace update, with per-window results and retry support for failed items.
+- Restore automatically after display connection, rotation, resolution changes, or login. Safari last-window reopening, Finder placement, and long recent-restore results are handled more reliably.
 
 ## Verification
 
-Passed 255 tests across 27 suites, Thread Sanitizer, Address Sanitizer, and warnings-as-errors Debug and Release builds.
+Passed 278 tests across 29 suites, Thread Sanitizer, Address Sanitizer, and warnings-as-errors Debug and Release builds. Developer ID signing, notarization, stapling, Gatekeeper, in-app updating, sleep and login restoration, and safe handling of existing windows on another Space were verified on hardware.
 
 </details>
 ]]></description>
-            <enclosure url="https://github.com/4celain/twma-releases/releases/download/v0.3.0-beta.8/TWMA-0.3.0-beta.8-build.10-arm64.dmg" length="2618679" type="application/octet-stream" sparkle:edSignature="YAyUf5otLazErD+vBEdyPOfCEP78mnbOkFrvJjRN2+R97ipEEg5hsipJPR2Fx9XnPdNBW6X4PbKkJrr4gdXlAg=="/>
+            <enclosure url="https://github.com/4celain/this-is-a-window/releases/download/v1.0.0/this-is-a-window-1.0.0-build.17-arm64.dmg" length="2704689" type="application/octet-stream" sparkle:edSignature="APAmlLWZP0J9FK6U6dX0AidyNdm3fw1G7kXu09V4UiKJU9lZrfPp6CcGtpTlaJigxZYy6ATQFIULrinZK5aYBA=="/>
         </item>
     </channel>
 </rss>
