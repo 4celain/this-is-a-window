@@ -1,5 +1,5 @@
 name: 버그 제보 / Bug report
-description: TWMA 공개 베타에서 발생한 문제를 알려주세요. / Report a public beta issue.
+description: This is a Window에서 발생한 문제를 알려주세요. / Report an issue in This is a Window.
 title: "[Bug] "
 labels:
   - bug
@@ -13,10 +13,10 @@ body:
         Please do not include window titles, document contents, account details, or other personal data.
 
   - type: input
-    id: twma-version
+    id: app-version
     attributes:
-      label: TWMA 버전 / Version
-      placeholder: "예: 0.3.0 Beta 8 (Build 10) / Example: 0.3.0 Beta 8 (Build 10)"
+      label: This is a Window 버전 / Version
+      placeholder: "예: 1.0.0 (Build 17) / Example: 1.0.0 (Build 17)"
     validations:
       required: true
 
@@ -43,9 +43,10 @@ body:
         - 창 레이아웃 / Window layout
         - 작업공간 저장 / Workspace save
         - 작업공간 복원 / Workspace restore
+        - 키보드 창 이동 / Keyboard window movement
         - 앱 및 데이터 / Apps & Data
         - 업데이트 / Updates
-        - 권한·실행 / Permissions and launch
+        - 메뉴 막대·로그인·권한 / Menu bar, login, and permissions
         - 기타 / Other
     validations:
       required: true
