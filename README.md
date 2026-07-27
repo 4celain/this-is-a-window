@@ -4,7 +4,7 @@
 
 A macOS menu bar app for arranging windows and restoring an entire workspace in one action.
 
-[Download This is a Window 1.0.0](https://github.com/4celain/this-is-a-window/releases/download/v1.0.0/this-is-a-window-1.0.0-build.17-arm64.dmg) · [View all releases](https://github.com/4celain/this-is-a-window/releases)
+[Download This is a Window 1.0.1](https://github.com/4celain/this-is-a-window/releases/download/v1.0.1/this-is-a-window-1.0.1-build.18-arm64.dmg) · [View all releases](https://github.com/4celain/this-is-a-window/releases)
 
 Requirements: macOS 14 or later · Apple Silicon
 
@@ -22,7 +22,7 @@ Requirements: macOS 14 or later · Apple Silicon
 
 | Area | Included |
 | --- | --- |
-| Window layouts | Display-compatible presets · drag to snap · optional 8 pt gaps · Dock-aware placement |
+| Window layouts | Display-compatible presets · drag to snap with an optional activation modifier · full or destination-only preview · optional 8 pt gaps · Dock-aware placement |
 | Keyboard | Move the focused window through adjacent preset zones with a modifier key and arrow keys |
 | Workspaces | Save, update, and restore · display-specific layouts · exclude saved apps |
 | Multiple windows | Conservatively match supported windows from the same app |
@@ -78,7 +78,7 @@ All features are free. If the app is useful, you can support development with a 
 
 창을 정해진 위치에 배치하고 저장한 작업공간 전체를 한 번에 복원하는 macOS 메뉴 막대 앱입니다.
 
-[This is a Window 1.0.0 다운로드](https://github.com/4celain/this-is-a-window/releases/download/v1.0.0/this-is-a-window-1.0.0-build.17-arm64.dmg) · [모든 릴리스 보기](https://github.com/4celain/this-is-a-window/releases)
+[This is a Window 1.0.1 다운로드](https://github.com/4celain/this-is-a-window/releases/download/v1.0.1/this-is-a-window-1.0.1-build.18-arm64.dmg) · [모든 릴리스 보기](https://github.com/4celain/this-is-a-window/releases)
 
 지원 환경: macOS 14 이상 · Apple Silicon
 
@@ -96,7 +96,7 @@ All features are free. If the app is useful, you can support development with a 
 
 | 영역 | 지원 내용 |
 | --- | --- |
-| 창 배치 | 모니터 환경에 맞는 고정 프리셋 · 드래그 배치 · 선택적 8 pt 간격 · Dock 대응 |
+| 창 배치 | 모니터 환경에 맞는 고정 프리셋 · 선택적 활성 보조키로 드래그 배치 · 전체 또는 도착지점 미리보기 · 선택적 8 pt 간격 · Dock 대응 |
 | 키보드 | 보조키와 방향키로 현재 창을 인접한 프리셋 영역으로 이동 |
 | 작업공간 | 저장·업데이트·복원 · 모니터 환경별 배치 · 저장된 앱 제외 |
 | 여러 창 | 같은 앱에서 지원되는 여러 창을 보수적으로 구분 |
